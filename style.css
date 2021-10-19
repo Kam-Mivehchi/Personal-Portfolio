@@ -73,18 +73,18 @@ section {
     
 }
 
-#work {
+.work {
     width: 100%;
     display: inline-flex;
     flex-wrap:wrap;
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 50px;
-    height: 700px;
+    height: 1200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    align-items: center;
+  
 }
 
 
@@ -97,41 +97,49 @@ section h1{
     padding-right: 10px;
     border-right: #b4b9c9 solid 4px;
 }
-#work h1{
-    padding-bottom: 150px;
+.work h1{
+    padding-bottom: 500px;
     padding-right: 119px;
 }
-#resume h1{
+
+.resume h1{
     padding-bottom: 150px;
     padding-right: 65px;
 }
-#contact h1{
+.contact h1{
     padding-bottom: 150px;
     padding-right: 65px;
 }
 section div{
-    display:block;
+ 
     position:relative;
     justify-content:center;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
+
 .headlineProject{
-    margin: -30px 800px 50px 500px;
+    
     border: 2px solid #2a607c ;
     height:500px;
     width: 900px;
-    justify-content:center;
+    justify-content: center;
     display: flex;
 }
-
+#caption{
+    display:flex;
+    flex-wrap: wrap;
+    color:aqua;
+    background-color: #b4b9c9;
+  
+}
 .miniGallery {
     display:flex;
     flex-wrap:wrap;
     border: 2px solid #2a607c;
     max-width: 500px;
     HEIGHT: 300px;
-    margin: 10px 200px 50px 200px;
+ 
 }
 
 
