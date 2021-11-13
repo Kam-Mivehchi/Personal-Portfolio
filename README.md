@@ -5,10 +5,10 @@ Langauges used: HTML / CSS
 Features
 
 - mobile responsive webite
--navabar links to page elements, github, and linkedin
--hero section used as canvas for future development; looking to tie in my chemical background
--about me section which features a small introduction to my proffesional portfolio
--project section used to display screen shots of projects as well as links to the deployed sites
+- navabar links to page elements, github, and linkedin
+- hero section used as canvas for future development; looking to tie in my chemical background
+- about me section which features a small introduction to my proffesional portfolio
+- project section used to display screen shots of projects as well as links to the deployed sites
 
 
 Future improvements
