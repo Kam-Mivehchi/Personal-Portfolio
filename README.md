@@ -19,7 +19,8 @@ Future improvements
 
 Links:
 https://kam-mivehchi.github.io/Homework-2/
+https://github.com/Kam-Mivehchi/Homework-2
 Screenshots:
 ![image](https://user-images.githubusercontent.com/90432404/141661757-b3fc4caa-ea22-4152-9152-4236c6c3551a.png)
 ![image](https://user-images.githubusercontent.com/90432404/141661760-9915b3da-f83d-449a-baf4-03d37abccf48.png)
-![image](https://user-images.githubusercontent.com/90432404/141661751-07205cc7-a11d-4560-9b7a-bbbc9b79717e.png)
+![image](https://user-images.githubusercontent.com/90432404/141661773-2e9e810e-54e0-4967-a72e-e5254ebd6462.png)
