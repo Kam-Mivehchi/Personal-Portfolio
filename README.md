@@ -3,7 +3,6 @@ Personal portfolio website- Homework 2
 Langauges used: HTML / CSS
 
 Features
-
 - mobile responsive webite
 - navabar links to page elements, github, and linkedin
 - hero section used as canvas for future development; looking to tie in my chemical background
@@ -12,10 +11,10 @@ Features
 
 
 Future improvements
--add links to future projects
--add a contextual hero
--improve navbar styling
--add link to resume pdf
+- add links to future projects
+- add a contextual hero
+- improve navbar styling
+- add link to resume pdf
 
 Links:
 https://kam-mivehchi.github.io/Homework-2/
