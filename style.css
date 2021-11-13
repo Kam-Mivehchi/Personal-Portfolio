@@ -1,147 +1,102 @@
 
-/*change header into flex container, and justify the content within*/
-:root {
-    --headerBackground:  #2a607c;
-    --nameColor: #b4b9c9;
+/* color theme set to variable to allow for wuick theme changes */
+:root{
+    --Navy:  #053742;
+    --blue: #39A2DB;
+    --aqua: #A2DBFA;
+    --teal:#E8F0F2;
+    
 }
-
+/* Global font change */
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
-header{
-    padding: 28px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--headerBackground);
-    color: #ffffff;
+/* increase font size and change color */
+h1{
+  font-size: 3rem;
+  color:var(--Navy);
 }
-
-header h1 {
-    display: inline-block;
-    font-size: 400%;
-}
-
-.nameColor{
-    color: var(--nameColor)
-}
-
-nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 34px;
-    justify-content: center;
-    display:flex;
-}
-figure {
-    height: 200px;
-    width: 100%;
-    display:flex;
-    background-image: url("./Images/1201213.jpg");
-    background-size: cover;
-    background-position: center;
+/* changes navbar item size */
+li{
     
+    font-size: 1.5rem;
+}
+img{
+    margin-bottom:-20px;
 }
 
-section {
-    width: 100%;
-    display: block;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+footer{
+    margin:-20px;
+    padding:20px;
+}
+.section, main, footer{
+    background-color: var(--aqua);
+}
+.section{
+    background-color: var(--blue);
+    border-radius: 15px;
+    margin:20px;
+}
+#nav{
+    background-color: var(--Navy);
+    color:var(--aqua);
+    margin-right: 10px;
+    padding: 10px;
+    
+   
+}
+#navbar{
+    color: var(--teal);
+    font-size:225%;
+}
+.Mivehchi{
+    color: var(--aqua);
+    font-size: 120%;
+    font-style: italic;
+    margin-left: -10px;
+}
+#navbarText{
+    justify-content: end;
+    color:var(--Navy);
+}
+#about{
+    background-color: var(--blue);
+    border-radius: 15px;
+    margin:20px;
     
     
 }
-
-.work {
-    width: 100%;
-    display: inline-flex;
-    flex-wrap:wrap;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 1200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+#proj{
+    background-color: var(--blue);
+    border-radius: 15px;
+    
+   
+   
+}
+#projects{
+    background-color: var(--blue);
+    border-radius: 15px;
+    padding-top: -20px;
+    padding-bottom: 20px;
+    
+   
+}
+#main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 10;
   
 }
-
-
-section h1{
-    font-size: 55px;
-    float:left;
-    margin-right: 20px;
+#mini{
     display: flex;
-    padding-bottom: 150px;
-    padding-right: 10px;
-    border-right: #b4b9c9 solid 4px;
-}
-.work h1{
-    padding-bottom: 500px;
-    padding-right: 119px;
-}
-
-.resume h1{
-    padding-bottom: 150px;
-    padding-right: 65px;
-}
-.contact h1{
-    padding-bottom: 150px;
-    padding-right: 65px;
-}
-section div{
- 
-    position:relative;
-    justify-content:center;
-    color:rgb(0, 0, 0);
-}
-
-
-.headlineProject{
-    
-    border: 2px solid #2a607c ;
-    height:500px;
-    width: 900px;
     justify-content: center;
-    display: flex;
-}
-#caption{
-    display:flex;
-    flex-wrap: wrap;
-    color:aqua;
-    background-color: #b4b9c9;
-  
-}
-.miniGallery {
-    display:flex;
-    flex-wrap:wrap;
-    border: 2px solid #2a607c;
-    max-width: 500px;
-    HEIGHT: 300px;
- 
+    margin: 20px 0;
 }
 
-
+.miniProject{
+    margin: 0 30px;
+    
+}
 
 

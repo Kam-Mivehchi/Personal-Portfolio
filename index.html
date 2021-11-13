@@ -4,98 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kamyar Mivehchi</title>
     <link rel ="stylesheet" type="text/css" href = "style.css"/>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Kamyar Mivehchi</title>
 </head>
 
 <body>
-    <header>
-        <h1>Kamyar <span class = "nameColor" > Mivehchi</span></h1>
-        <nav>
-            <ul>
-                <li><a href= ".aboutme">About Me    </a></li>
-                <li><a href= ".work">Work   </a></li>
-                <li><a href= ".resume">Resume   </a></li>
-                <li><a href= ".contact">Contact </a></li>
-            </ul>
+    
+    <nav>
+        <nav class="navbar navbar-expand-lg " id ="nav">
+            <a class="navbar-brand" id="navbar" href="#"><span class="work"id="last">Kamyar</span><span id="last"class="Mivehchi"> Mivehchi</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarText">
+              <ul class="navbar-nav ml-auto mt-2" id ="floatRight">
+                <li class="nav-item active">
+                  <a class=""id ="nav"href="#about">About</a>
+                </li><li class="nav-item active">
+                    <a class=""id ="nav" href="#projects">Projects</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="" id ="nav" href="https://www.linkedin.com/in/kamyar-a-mivehchi-8b4855128/">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class=""  id ="nav"href="https://www.linkedin.com/in/kamyar-a-mivehchi-8b4855128/">linkedin</a>
+                </li>
+              </ul>
+            </div>
         </nav>
-    </header>
+    </nav>
 
-    <figure class= "banner"></figure>
+    <hero id ="my">
+        <img src="./Images/PORTFOLIOHEADER.svg"alt="custom hero image utilizing hexagons">
+
+    </hero>
+
     <main>
-        <section class ="aboutme">
-            
-                <h1>About Me</h1>
-            
-            <p>Experienced Research And Development Chemist with a demonstrated history 
-                of working in the chemicals industry. Strong research professional with a 
-                Bachelor of Science (B.S.) focused in Chemistry from University of California, 
-                Riverside. Enrolled in UC Irvine Full Stack Developer Bootcamp, looking for entry 
-                level developement positions.
-            </p>
-        </section>
-        
-        <section class ="work">
-        
-                <h1>Work</h1>
-            
-            <div>
-                <img class = "headlineProject" src="Images/240_F_105933575_MQSMK5iaciRug9U8w2gfIIvRDrf3QODd.jpg" alt = "Main">
-                <div id="caption">
-                    <h2><a class = "word" href ="#" >Interactive CSS Cheat Sheet</a></h2>
-                    <p>HTML - CSS</p>
-                </div>
+        <div class ="col-11"id="about"> 
+            <h1 class="m-4 pt-5" id ="floatLeft about">About</h1> 
+            <div class= "container" >
+                <p class= "h3" id ="text">Experienced Research And Development Chemist with a demonstrated history 
+                    of working in the chemicals industry. Strong research professional with a 
+                    Bachelor of Science (B.S.) focused in Chemistry from University of California, 
+                    Riverside. Enrolled in UC Irvine Full Stack Developer Bootcamp, looking for entry 
+                    level developement positions.
+                </p>
+                
             </div>
+        </div>
+        <div class ="col-11 section"id = "col-12 proj">
+            <h1 class="m-4 pt-5"id ="floatLeft ">Projects</h1> 
             
+            <div class="container col-12" id ="projects">
+                <div class ="row col-12 w-100 card" id="main" style="width: 64rem;">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./Images/Project1ScreenShot.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="./Images/Project1ScreenShot-2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="./Images/Project1ScreenShot-4.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="card-body">
+                            <h1 class="card-title">Workout Wizard</h1>
+                            <p class="card-text" id="cardText">Dynamic web application that allows a user to choose a muscle group from a human body diagram and see a list of excersices that target the desired muscle group.
+                                Utilizes API's to present user with excersices directions and 5 insructional video links.
+                            </p>
+                            <p class ="language">JavaScript • CSS • HTML</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="row col-12" id="mini">
+                  <div class="col-lg-6 col-md-12 card miniProject" style="width: 32rem;">
+                    <img src="./Images/download.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">There's nothing here yet, but check back soon for more content.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 card miniProject" style="width: 32rem;">
+                    <img src="./Images/download.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">There's nothing here yet, but check back soon for more content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row col-12"id="mini">
+                  <div class="col-lg-6 col-md-12 card miniProject" style="width: 32rem;">
+                    <img src="./Images/download.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">There's nothing here yet, but check back soon for more content.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 card miniProject" style="width: 32rem;">
+                    <img src="./Images/download.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">There's nothing here yet, but check back soon for more content.</p>
+                    </div>
+                  </div>
+                </div>
+             </div>
             
-            
-            <div>
-                <img class = "miniGallery" src="Images/240_F_105933575_MQSMK5iaciRug9U8w2gfIIvRDrf3QODd.jpg" alt = "Img1">
-                <div id="caption">
+        </div>
 
-                    <h2> First Website</h2>
-                    <p>HTML - CSS</p>
-                </div>
-            </div>
-            <div>
-                <img class = "miniGallery" src="Images/240_F_105933575_MQSMK5iaciRug9U8w2gfIIvRDrf3QODd.jpg" alt = "Img1">
-                <div id="caption">
-                    <h2>Project 3</h2>
-                    <p>Language</p>
-                </div>
-            </div>
-            <div>
-                <img class = "miniGallery" src="Images/240_F_105933575_MQSMK5iaciRug9U8w2gfIIvRDrf3QODd.jpg" alt = "Img1">
-                <div id="caption">
-                    <h2>Project 4</h2>
-                    <p>Language</p>
-                </div>
-            </div>
-            <div>
-                <img class = "miniGallery" src="Images/240_F_105933575_MQSMK5iaciRug9U8w2gfIIvRDrf3QODd.jpg" alt = "Img1">
-                <div id="caption">
-                    <h2>Project 5</h2>
-                    <p>Language</p>
-                </div>
-            </div>
-        </section>
-        
-        <section class ="resume">
-            
-                <h1>Resume</h1>
-            
-            <img href = "#.pdf">
-        </section>
-            
-        <section class ="contact">
-            <h1>Contact</h1>
-            <a href ="tel:+1(714)2928281">(714)-292-8281</a>
-            <a href ="mailto:kammivehchi@gmail.com">Kammivehchi@gmail.com</a>
-            <a href ="https://www.linkedin.com/in/kamyar-a-mivehchi-8b4855128/"> Linkedin</a>
-        </section> 
+
     </main>
-        
-        
-    </body>
-    </html>
+    <footer class="text-center">
+        <p>2021 ~ Kamyar Mivehchi</p>
+        <a href="mailto:kammivehchi@gmail.com">kammivehchi@gmail.com</a>
+    </footer>
+
+
+
+
+
+    
+</body>
+</html>
